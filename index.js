@@ -9,9 +9,19 @@ let parisImages = [
   "images/6.jpg",
   "images/7.jpg",
 ];
-//console.log(parisImages[0])
+
 let i = 0;
-nextButton.addEventListener("click", function(){
-i++;
-document.querySelector('#pictures').src = parisImages[i];
-})
+nextButton.addEventListener("click", function () {
+  i++;
+  if (i > parisImages.length - 1) {
+    i = 0;
+  }
+  document.querySelector("#pictures").src = parisImages[i];
+});
+backButton.addEventListener("click", function () {
+  i--;
+  if (i < 0) {
+    i = parisImages.length - 1;
+  }
+  document.querySelector("#pictures").src = parisImages[i];
+});

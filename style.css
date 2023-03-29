@@ -1,18 +1,18 @@
 body {
-	background: #FAF7F0;
+  background: #faf7f0;
 }
 .btn {
-	background: #D2DAFF;
-	border: none;
-	border-radius: 5px;
-	font-size: 30px;
-	font-family: 'Dancing Script', cursive;
+  background: #d2daff;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
 }
 #container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #pictures {
-	width: 500px;
-	border-radius: 5px;
+  width: 500px;
+  border-radius: 5px;
 }
