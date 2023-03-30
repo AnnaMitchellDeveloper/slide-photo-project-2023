@@ -16,3 +16,9 @@ body {
   width: 500px;
   border-radius: 5px;
 }
+@media all and (max-width:800px) {
+
+  #pictures {
+    width: 70%;
+  }
+}
